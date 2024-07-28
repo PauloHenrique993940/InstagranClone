@@ -34,7 +34,7 @@
     }
 
     .stories {
-        display: flex;
+        align-items: center;
         flex-direction: row;
         border: none;
         justify-content:space-around;
