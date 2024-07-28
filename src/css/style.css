@@ -71,11 +71,13 @@ html{
 .stories {
     display: flex;
     border: 1px solid #DBDBDB;
-    width: 614px;
+    width: 45%;
     height: 88px;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x:hidden;
+
 }
 
 .stories_img {
