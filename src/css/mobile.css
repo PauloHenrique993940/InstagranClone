@@ -1,0 +1,82 @@
+@media (max-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topo{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .logo{
+        width: 103px;
+        display: flex;
+        position: fixed;
+        height: 29px;
+    
+    }
+    .icones{
+        display: none;
+    }
+    .stories{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        border: none;
+        justify-content: space-between;
+    }
+
+    .containerSidebar{
+        display: none;
+    }
+
+    .layout_container{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .img_post{
+        width: 612px;
+        height: 612px;
+    }
+
+    .posti_icones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .icone_limksdesktop{
+        display: none;
+
+    }
+
+    .icones_exibir_desktop{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 95%;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    
+}
