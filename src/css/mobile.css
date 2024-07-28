@@ -1,44 +1,63 @@
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
-    *{
+    * {
         margin: 0px;
         padding: 0px;
     }
 
-    body{
+    body {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .topo{
+
+    .topo {
         width: 100%;
         justify-content: center;
-        
+
     }
 
-    .logo{
+    .logo {
         width: 103px;
         display: flex;
         position: fixed;
         height: 40px;
-    
+
     }
-    .icones{
+
+    .icones {
         display: none;
     }
-    .stories{
+
+    .stories {
         display: flex;
         flex-direction: row;
-        max-width: 100%;
+        max-width: 600px;
         border: none;
         justify-content: space-between;
     }
 
-    .containerSidebar{
+    .stories p {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.06px;
+        text-align: center;
+        width: 58px;
+        height: 19px;
+        top: 173px;
+        left: 164px;
+        gap: 0px;
+        opacity: 0px;
+
+
+    }
+
+    .containerSidebar {
         display: none;
     }
 
-    .layout_container{
+    .layout_container {
         width: 100%;
         display: block;
         flex-direction: column;
@@ -47,12 +66,12 @@
         margin-left: 0px;
     }
 
-    .img_post{
+    .img_post {
         width: 612px;
         height: 612px;
     }
 
-    .posti_icones{
+    .posti_icones {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -60,23 +79,28 @@
         padding: 0;
     }
 
-    .icone_limksdesktop{
+    .icone_limksdesktop {
         display: none;
 
     }
 
-    .icones_exibir_desktop{
+    .icones_exibir_desktop {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         width: 95%;
     }
 
-    .card{
+    .card {
         width: 100%;
         height: auto;
         background-size: cover;
     }
 
-    
+    .imgMetade{
+        width: 50%;
+        overflow: hidden;
+    }
+
+
 }
