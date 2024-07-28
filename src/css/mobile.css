@@ -41,17 +41,18 @@
         width: 614px;
         margin-right: 0px;
         display: flex;
+        gap: 10px;
     }
 
    
 
     .stories p {
         font-family: Roboto;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
-        line-height: 14.06px;
+        line-height: 10px;
         text-align: center;
-        width: 58px;
+        width: 40px;
         height: 19px;
         top: 173px;
         left: 164px;
