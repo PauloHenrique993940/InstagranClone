@@ -6,10 +6,11 @@
     }
 
     body {
-        display: flex;
-        flex-direction: column;
+        display: block;
         align-items: center;
-        width: 100%;
+        overflow-x: hidden;
+
+
     }
 
     .topo {
@@ -35,11 +36,13 @@
     .stories {
         display: flex;
         flex-direction: row;
-        width: 100%;
         border: none;
         justify-content:space-between;
-        box-sizing: border-box;
+        overflow-x: auto;
+        width: 100%;
     }
+
+   
 
     .stories p {
         font-family: Roboto;
@@ -63,7 +66,7 @@
 
     .layout_container {
         width: 100%;
-        display: block;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -72,9 +75,13 @@
 
     .img_post {
         width: 600px;
-        height: 600px;
-        overflow-y: hidden;
+    
         
+    }
+
+    .img_post2 {
+        width: 100%;
+        height: auto;
     }
 
     .posti_icones {
