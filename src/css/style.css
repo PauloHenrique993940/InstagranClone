@@ -76,8 +76,13 @@ html{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x:hidden;
+    overflow-x: hidden;
 
+}
+
+.stories_img img{
+    overflow-x: hidden;
+    width: 40px;
 }
 
 .stories_img {
@@ -87,9 +92,7 @@ html{
     margin: 0px;
 }
 
-.stories_img img {
-    width: 50 px;
-}
+
 
 .stories_img p {
     font-family: Roboto;
