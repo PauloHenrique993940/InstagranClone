@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
+
 }
 
 html{
@@ -43,7 +44,6 @@ html{
     height: 22px;
     top: 16px;
     left: 1002px;
-    padding: 2.06px 2.06px 2.07px 2.06px;
     gap: 10px;
     opacity: 0px;
 
@@ -82,10 +82,11 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
 }
 
 .stories_img img {
-    width: 56px;
+    width: 50 px;
 }
 
 .stories_img p {
@@ -227,7 +228,6 @@ html{
 .img_post {
     margin-top: 10px;
     max-width: 100%;
-    height: auto;
 }
 
 .topo_post {
