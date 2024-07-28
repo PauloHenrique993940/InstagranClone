@@ -32,9 +32,10 @@
     .stories {
         display: flex;
         flex-direction: row;
-        max-width: 600px;
+        width: 95%;
         border: none;
         justify-content: space-between;
+        gap: 20px;
     }
 
     .stories p {
