@@ -32,10 +32,10 @@
     .stories {
         display: flex;
         flex-direction: row;
-        width: 95%;
+        width: 100%;
         border: none;
         justify-content: space-between;
-        gap: 20px;
+        gap: 15px;
     }
 
     .stories p {
